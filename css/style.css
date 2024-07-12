@@ -75,20 +75,27 @@ nav a:hover {
     font-size: 50px;
     color: #333;
 } */
-#theme-toggle {
+.moon {
     border: none;
     background-color: transparent;
     cursor: pointer;
     transition: all 0.5s;
 }
-#theme-toggle:hover {
-    transform: scale(1.1);
+.moon:hover {
+    transform: scale(1.3 );
 }
 .cart-icon {
     background-color: transparent;
     /* transition: all 0.5s; */
     cursor: pointer;
 }
+/* .cart-icon:hover {
+    /* width: 20px;
+    height: 20px; */
+    /* background-color: #766b6b;
+    border-radius: 50%;
+    transform: scale(1.1);
+} */
 .fa-solid fa-moon {
     color: #007bff;
 }
@@ -155,7 +162,7 @@ nav a:hover {
 .featured-products h2 {
     text-align: left;
     margin-bottom: 2em;
-
+    color: #394E6A;
 }
 
 .product-grid {
@@ -163,34 +170,44 @@ nav a:hover {
     display: flex;
     justify-content: center;
     gap: 1em;
+    
 }
 
 .product {
-    width: 200px;
-    height: 330px;
+    width: 280px;
+    height: 290px;
     background-color: #fff;
     border-radius: 0.5em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* padding: 1em; */
+    transition: all 0.5s;
+    cursor: pointer;
     text-align: center;
 }
-
+.product:hover {
+    transform: scale(0.9);
+}
 .product img {
-    width: 200px;
+    padding-top: 10px;
+    width: 240px;
     height: 200px;
     /* max-width: 100%; */
-    height: auto;
-    border-radius: 0.5em;
+    /* height: auto; */
+    border-radius: 10px;
     margin-bottom: 1em;
+   
 }
 
 .product h3 {
-    margin-bottom: 0.5em;
+    color: #13223a;
+    /* /* margin-bottom: 0.5em;  */
 }
 
 .product p {
-    font-size: 1.2em;
-    color: #007bff;
+    padding-top: 5px;
+    /* font-size: 1.2em; */
+    color: #233b61;
+    font-weight: 2000;
 }
 
 /* moon */
